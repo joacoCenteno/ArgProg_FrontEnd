@@ -1,0 +1,21 @@
+{
+    "nombre": "Joaquín",
+    "apellido": "Centeno",
+    "position": "Full Stack Developer Jr.",
+    "edad": "18 años",
+    "cuil": "20-45567004-8",
+    "location": "Santa María, Catamarca,  Argentina",
+    "email": "centenojoaco01@gmail.com",
+    "escuela": {
+       "nombre": "E.P.E.T. N°5",
+       "imagen": "https://www.epet5-santamaria.edu.ar/img/logo2.png",
+       "carrera": "Técnico en Informática Profesional y Personal",
+       "duracion": "2016-Actualidad"
+    },
+    "social": {
+       "facebook": "https://www.facebook.com/profile.php?id=100011527988817",
+       "instagram": "https://www.instagram.com/joaco.centeno/",
+       "github": "https://github.com/joacoCenteno"
+    },
+    "logo": "https://www.concordia.gob.ar/sites/all/themes/programar/images/arg-programa.png"
+ }
