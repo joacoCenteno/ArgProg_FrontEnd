@@ -2,6 +2,8 @@
     "nombre": "Joaquín",
     "apellido": "Centeno",
     "position": "Full Stack Developer Jr.",
+    "Introdescripcion": "Soy un joven argentino de actualmente 18 años. Resido en la provincia de Catamarca.",
+    "Finallydescripcion": "Apasionado con la tecnología y más en específico en la rama Software. Intento absorver la mayoría de conceptos que me brindan diferentes cursos que he tomado, más los conceptos de la escuela.",
     "edad": "18 años",
     "cuil": "20-45567004-8",
     "location": "Santa María, Catamarca,  Argentina",
@@ -10,8 +12,36 @@
        "nombre": "E.P.E.T. N°5",
        "imagen": "https://www.epet5-santamaria.edu.ar/img/logo2.png",
        "carrera": "Técnico en Informática Profesional y Personal",
-       "duracion": "2016-Actualidad"
+       "duracion": "2016-Actualidad",
+       "descripcion": {
+            "primera": "Actualmente en el último de siete años de cursada.",
+            "segunda":"En la carrera de Técnico en Informática se aprende sobre conceptos de Hardware, Redes y Software en general.",
+            "tercera": "Sobre software se centraron en los lenguajes:",
+            "lenguajes": "C++, C#, HTML, CSS, Bootstrap y PHP."
+         }
     },
+    "skills":[
+      {
+         "nombre": "HTML",
+         "porcentaje": "70%"
+      },
+      {
+         "nombre": "CSS",
+         "porcentaje": "70%"
+      },
+      {
+         "nombre": "PHP",
+         "porcentaje": "70%"
+      }
+    ],
+    "projects":[
+      {
+         "nombre": "Portfolio Web",
+         "fecha": "2022-08-22",
+         "descripcion": "Portfolio Web FrontEnd desarrollado con HTML, CSS y JS. Tarea para el curso Argentina Programa (#YoProgramo).",
+         "logo": "https://www.concordia.gob.ar/sites/all/themes/programar/images/arg-programa.png"
+      }
+    ],
     "social": {
        "facebook": "https://www.facebook.com/profile.php?id=100011527988817",
        "instagram": "https://www.instagram.com/joaco.centeno/",

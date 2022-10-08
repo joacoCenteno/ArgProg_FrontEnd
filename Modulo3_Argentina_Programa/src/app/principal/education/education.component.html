@@ -11,9 +11,9 @@
             <h3 class="text_title">{{principalEducation.escuela.nombre}}</h3>
             <p class="carrera">{{principalEducation.escuela.carrera}}</p>
             <h4 class="fecha">{{principalEducation.escuela.duracion}}</h4>
-            <p class="p_education">Actualmente en el último de siete años de cursada.</p>
-            <p class="p_education">En la carrera de Técnico en Informática se aprende sobre conceptos de Hardware, Redes y Software en general.</p>
-            <p class="p_education">Sobre software se centraron en los lenguajes:  <span class="languages">C++, C#, HTML, CSS, Bootstrap y PHP.</span> </p>
+            <p class="p_education">{{principalEducation.escuela.descripcion.primera}}</p>
+            <p class="p_education">{{principalEducation.escuela.descripcion.segunda}}</p>
+            <p class="p_education">{{principalEducation.escuela.descripcion.tercera}} <span class="languages">{{principalEducation.escuela.descripcion.lenguajes}}</span> </p>
         </div>
     </div>
 </section>

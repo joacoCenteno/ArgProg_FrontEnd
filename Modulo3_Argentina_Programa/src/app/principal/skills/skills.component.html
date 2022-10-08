@@ -3,21 +3,11 @@
         <h2>SKILLS</h2>
     </div>
 
-    <div class="skills_items">
+    <div class="skills_items" *ngFor="let skill of principalSkills">
         <div class="item">
-            <p>HTML5</p>
-            <p class="porcentaje_html">70%</p>
+            <p>{{skill.nombre}}</p>
+            <p class="porcentaje_html">{{skill.porcentaje}}</p>
             <div class="bar_html"></div>
-        </div>
-        <div class="item">
-            <p>CSS3</p>
-            <p class="porcentaje_css">80%</p>
-            <div class="bar_css"></div>
-        </div>
-        <div class="item">
-            <p>JavaScript</p>
-            <p class="porcentaje_js">60%</p>
-            <div class="bar_js"></div>
         </div>
     </div>
 </section>
